@@ -3,7 +3,8 @@ import requests
 
 # ⚠️ VERY IMPORTANT
 # When using Docker Compose → use service name, NOT localhost
-API_URL = "http://backend:8000/predict"
+API_URL = API_URL = "http://backend:8000/predict"
+
 
 st.set_page_config(
     page_title="Customer Churn Predictor",
